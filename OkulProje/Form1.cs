@@ -16,5 +16,12 @@ namespace OkulProje
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            FrmOgrenciNotlar frm = new FrmOgrenciNotlar();
+            frm.numara=textBox1.Text;
+            frm.Show();
+        }
     }
 }
